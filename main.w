@@ -19,9 +19,9 @@ api.get("/getUserActivity", inflight(request) => {
       let activities = Utils.getGitHubActivityGraph(
         request.query.get("username"),
         token.value(),
-        365
+        37
       );
-      
+
       let counts = MutArray<num> [];
       for activity in activities {
         counts.push(math.min([8, activity.contributions]));
