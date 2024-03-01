@@ -1,5 +1,6 @@
 bring cloud;
 bring http;
+bring math;
 
 struct Contribution {
   date: str;
@@ -23,13 +24,13 @@ api.get("/getUserActivity", inflight(request) => {
       
       let counts = MutArray<num> [];
       for activity in activities {
-        counts.push(activity.contributions);
+        counts.push(math.min([8, activity.contributions]));
       }
       
       let frames = [
         {
-            index: 0,
-            chartData: counts.copy(),
+          index: 0,
+          chartData: counts.copy(),
         }
       ];
     
