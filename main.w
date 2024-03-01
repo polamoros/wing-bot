@@ -6,9 +6,15 @@ let counter = new cloud.Counter() as "counter";
 
 api.get("/button", inflight() => {
     counter.inc();
+
+    let frames = [{
+      text: counter.peek(),
+      icon: ""
+    }];
+
     return cloud.ApiResponse {
       status: 200,
-      body: Json.stringify(counter.peek())
+      body: Json.stringify({frames: frames})
     };
 });
 
