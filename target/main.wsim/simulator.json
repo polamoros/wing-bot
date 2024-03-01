@@ -1,0 +1,165 @@
+{
+  "types": {
+    "@winglang/sdk.cloud.Api": {
+      "className": "Api",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/api.inflight.js"
+    },
+    "@winglang/sdk.cloud.Bucket": {
+      "className": "Bucket",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/bucket.inflight.js"
+    },
+    "@winglang/sdk.cloud.Counter": {
+      "className": "Counter",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/counter.inflight.js"
+    },
+    "@winglang/sdk.cloud.Domain": {
+      "className": "Domain",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/domain.inflight.js"
+    },
+    "@winglang/sdk.ex.DynamodbTable": {
+      "className": "DynamodbTable",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/dynamodb-table.inflight.js"
+    },
+    "@winglang/sdk.cloud.Endpoint": {
+      "className": "Endpoint",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/endpoint.inflight.js"
+    },
+    "@winglang/sdk.sim.EventMapping": {
+      "className": "EventMapping",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/event-mapping.inflight.js"
+    },
+    "@winglang/sdk.cloud.Function": {
+      "className": "Function",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/function.inflight.js"
+    },
+    "@winglang/sdk.cloud.OnDeploy": {
+      "className": "OnDeploy",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/on-deploy.inflight.js"
+    },
+    "@winglang/sdk.cloud.Queue": {
+      "className": "Queue",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/queue.inflight.js"
+    },
+    "@winglang/sdk.ex.ReactApp": {
+      "className": "ReactApp",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/react-app.inflight.js"
+    },
+    "@winglang/sdk.ex.Redis": {
+      "className": "Redis",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/redis.inflight.js"
+    },
+    "@winglang/sdk.cloud.Schedule": {
+      "className": "Schedule",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/schedule.inflight.js"
+    },
+    "@winglang/sdk.cloud.Secret": {
+      "className": "Secret",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/secret.inflight.js"
+    },
+    "@winglang/sdk.cloud.Service": {
+      "className": "Service",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/service.inflight.js"
+    },
+    "@winglang/sdk.sim.State": {
+      "className": "State",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/state.inflight.js"
+    },
+    "@winglang/sdk.ex.Table": {
+      "className": "Table",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/table.inflight.js"
+    },
+    "@winglang/sdk.std.TestRunner": {
+      "className": "TestRunner",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/test-runner.inflight.js"
+    },
+    "@winglang/sdk.cloud.Topic": {
+      "className": "Topic",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/topic.inflight.js"
+    },
+    "@winglang/sdk.cloud.Website": {
+      "className": "Website",
+      "sourcePath": "/Users/polamoros/.nvm/versions/node/v18.18.2/lib/node_modules/winglang/node_modules/@winglang/sdk/lib/target-sim/website.inflight.js"
+    }
+  },
+  "resources": [
+    {
+      "type": "@winglang/sdk.cloud.Endpoint",
+      "path": "root/Default/api/Endpoint",
+      "addr": "c85491f6181e79d21c98f535a6192a0fbd37a8c82a",
+      "props": {
+        "inputUrl": "${wsim#root/Default/api#attrs.url}",
+        "url": "${wsim#root/Default/api#attrs.url}",
+        "label": "Api root/Default/api"
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.cloud.Secret",
+      "path": "root/Default/github_token",
+      "addr": "c843d9a749a03aebb1a150b9d53163f81f70ad299b",
+      "props": {
+        "name": "github-activity-wing-lemetric"
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.cloud.Function",
+      "path": "root/Default/api/OnRequestHandler0",
+      "addr": "c8573d92539cdb4bd35b4530478cc61f96d06fd593",
+      "props": {
+        "sourceCodeFile": ".wing/onrequesthandler0_c8573d92.js",
+        "sourceCodeLanguage": "javascript",
+        "environmentVariables": {
+          "WING_TARGET": "sim",
+          "SECRET_HANDLE_70ad299b": "${wsim#root/Default/github_token#attrs.handle}"
+        },
+        "timeout": 60000
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.cloud.Api",
+      "path": "root/Default/api",
+      "addr": "c818e0342bf59cb26492bac06b8f78ecd3dbb1be2d",
+      "props": {
+        "openApiSpec": {
+          "openapi": "3.0.3",
+          "paths": {
+            "/getUserActivity": {
+              "get": {
+                "operationId": "get-getUserActivity",
+                "responses": {
+                  "200": {
+                    "description": "200 response",
+                    "content": {}
+                  }
+                },
+                "parameters": []
+              }
+            }
+          }
+        }
+      },
+      "attrs": {}
+    },
+    {
+      "type": "@winglang/sdk.sim.EventMapping",
+      "path": "root/Default/api/ApiEventMapping0",
+      "addr": "c8ff3fbf4087950caccfb9556ee0709cd7a02b366c",
+      "props": {
+        "subscriber": "${wsim#root/Default/api/OnRequestHandler0#attrs.handle}",
+        "publisher": "${wsim#root/Default/api#attrs.handle}",
+        "subscriptionProps": {
+          "routes": [
+            {
+              "path": "/getUserActivity",
+              "method": "GET"
+            }
+          ]
+        }
+      },
+      "attrs": {}
+    }
+  ],
+  "sdkVersion": "0.58.17"
+}

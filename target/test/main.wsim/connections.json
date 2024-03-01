@@ -1,0 +1,20 @@
+{
+  "version": "connections-0.1",
+  "connections": [
+    {
+      "source": "root/env0/api",
+      "target": "root/env0/api/OnRequestHandler0",
+      "name": "get()"
+    },
+    {
+      "source": "root/env0/api/OnRequestHandler0",
+      "target": "root/env0/$Closure1_0",
+      "name": "handle()"
+    },
+    {
+      "source": "root/env0/api/OnRequestHandler0",
+      "target": "root/env0/github_token",
+      "name": "value()"
+    }
+  ]
+}
