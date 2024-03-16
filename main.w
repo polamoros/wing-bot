@@ -1,6 +1,6 @@
 bring cloud;
-// bring http;
-// bring math;
+bring http;
+bring math;
 
 let counter = new cloud.Counter();
 
